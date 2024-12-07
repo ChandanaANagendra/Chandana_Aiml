@@ -1,24 +1,19 @@
-//write a c program to print the count of even numbers and odd numbers present within 1 to n             
+//write a c program to check whether the number is even number or odd number
 #include<stdio.h>
 int main()
+{
+    int num;
+    printf("enter a number:");
+    scanf("%d",&num);
     {
-        int num;
-        int sum=0;
-        int Even_count=0;
-        int Odd_count=0;
-        printf("enter the value of num:");
-        scanf("%d",&num);
-        for(int i=1;i<=num;i++)
+        if(num%2==0)
         {
-            if(i%2==0)
-            {
-                Even_count++;
-            }
-            else
-            {
-                Odd_count++;
-            }
+        printf("even number");
         }
-        printf("Even count=%d \n",Even_count);
-        printf("Odd count=%d \n",Odd_count);
+        else
+        {
+        printf("odd number");
+        }
+        
     }
+}

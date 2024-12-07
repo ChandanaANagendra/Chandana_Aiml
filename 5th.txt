@@ -1,11 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int num,i;
-    printf("enter a number");
+    int num;
+    printf("enter the integer value:");
     scanf("%d",&num);
-    for(i=1;i<=10;i++)
+    if((num<=-99 && num>=-10)||(num>=10 && num<=99))
     {
-        printf("%d*%d=%d \n",num,i,num*i);
+        printf("entered value is two digit number");
+    }
+        else
+        {
+        printf("entered value is not two digit number");
     }
 }

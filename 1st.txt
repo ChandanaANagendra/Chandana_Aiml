@@ -1,12 +1,8 @@
-// write a c program to print numbers from n to 1
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int num;
-    printf("enter a number");
-    scanf("%d",&num);
-    for(int i=num;i>=1;i--)
-    {
-    printf("%d \n",i);
-    }
+int main()
+{
+    printf("good morning\n");
+    printf("this is our first c programming session");
+    
 }
