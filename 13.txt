@@ -1,0 +1,13 @@
+//write a c program to  print the following pattern
+#include <stdio.h>
+int main() {
+    int num;
+    printf("enter an integer: \n");
+    scanf("%d",&num);
+    for(int i=0;i<=4;i++)//number of lines
+    {
+        for(int j=0;j<=i;j++)//number of times
+           printf("%c ",(97+j));
+        printf("  \n");
+}
+}

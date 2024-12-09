@@ -1,0 +1,19 @@
+//                                //                          //                                    //
+#include<stdio.h>
+int main()
+{
+    void display()
+    {
+        printf("C \n");
+        printf("C++ \n");
+        printf("Java \n");
+        printf("Python \n");
+        printf("SQL \n");
+        printf("Javascript \n");
+    }
+    display();
+    display();
+    display();
+    display();
+    display();
+}

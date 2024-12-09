@@ -1,0 +1,12 @@
+//write a c program to  print the following pattern
+#include <stdio.h>
+int main() {
+    int num;
+    printf("enter an integer :\n");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+        {
+            printf("1 2 3 4 5 \n");
+        }
+        printf("\n");
+}

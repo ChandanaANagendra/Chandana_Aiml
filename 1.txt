@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int num;
+    int sum_Digits=0;
+    int Rem=0;
+    printf("enter the integer");
+    scanf("%d",&num);
+    //condition to find the summation of digits
+    while(num!=0)
+    {
+    Rem=num%10;
+    sum_Digits=Rem+sum_Digits;
+    num=num/10;
+}
+printf("%d",sum_Digits);
+return 0;
+}
+   

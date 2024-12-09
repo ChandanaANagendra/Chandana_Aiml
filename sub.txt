@@ -1,0 +1,14 @@
+//write a c program to substact 2 numbers
+//write a c program to find the product of 2 numbers using functions
+//to find the quotient and reminder of 2 numbers using functions
+#include<stdio.h>
+int main()
+{
+    void sub(int num1,int num2)
+    {
+   printf("substraction of %d & %d is : %d \n",num1,num2,(num1-num2));
+    }
+    sub(12,9);
+    sub(18,100);
+    sub(16,30);
+}

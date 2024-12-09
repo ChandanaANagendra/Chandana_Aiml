@@ -1,12 +1,16 @@
-//write a c program to print the square values from 1 to n                 
+//write a c program to print the reversed multiplication tables from 1 to n
 #include<stdio.h>
 int main()
 {
-    int num;
-    printf("enter the value of num:");
-    scanf("%d",&num);
-    for(int i=1;i<=num;i++)
+    int n,i;
+    printf("enter a number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        printf("%d\n",i*i);
+    printf("multiplication table for %d \n",n,i);
+    for(int j=10;j>=n;j--)
+    {
+        printf("%d*%d=%d \n",i,j,i*j);
     }
+}
 }
