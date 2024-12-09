@@ -1,16 +1,12 @@
-//read the age as input from the user and check the candidate is eligible to vote or not based on age
+//write a c program to print the square values from 1 to n                 
 #include<stdio.h>
 int main()
 {
-    int age;
-    printf("enter the age :");
-    scanf("%d",&age);
-    if(age>=18 && age<=100)
-{
-    printf("eligible to vote");
-}
-else
-{
-    printf("not eligible to vote");
-}
+    int num;
+    printf("enter the value of num:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+    {
+        printf("%d\n",i*i);
+    }
 }

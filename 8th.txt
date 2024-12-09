@@ -1,18 +1,14 @@
-//write the c program to read the month number as input from the user and check whether it is a valid number or not
+//write a c program to             
 #include<stdio.h>
 int main()
 {
     int num;
-    printf("enter a number");
+    int sum=0;
+    printf("enter the value of num:");
     scanf("%d",&num);
+    for(int i=1;i<=num;i++)
     {
-        if(num>=1 && num<=12)
-        {
-        printf("valid month number");
-        }
-        else
-        {
-            printf("not a valid month number");
-        }
+      sum=sum+i;
     }
+    printf("%d is summation of 1 to %d \n",sum,num);
 }

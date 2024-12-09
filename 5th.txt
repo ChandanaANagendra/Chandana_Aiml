@@ -1,15 +1,17 @@
+//write a c program to print the even numbers from 1 to n using while loop
 #include<stdio.h>
 int main()
 {
     int num;
-    printf("enter the integer value:");
+    int i=2;
+    printf("enter a number:");
     scanf("%d",&num);
-    if((num<=-99 && num>=-10)||(num>=10 && num<=99))
+    printf("even numbers from 1 to %d\n",num);
+    while(i<=num)
     {
-        printf("entered value is two digit number");
+        if(i%2==0)
+        printf("%d\n",i);
+        i++;
     }
-        else
-        {
-        printf("entered value is not two digit number");
-    }
-}
+    
+   }

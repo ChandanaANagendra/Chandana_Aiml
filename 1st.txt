@@ -1,8 +1,13 @@
+//write a c program to read the input for num as integer and print the even numbers from 1 to num
 #include<stdio.h>
-
 int main()
 {
-    printf("good morning\n");
-    printf("this is our first c programming session");
-    
-}
+    int num;
+    printf("enter an integer :");
+    scanf("%d",&num);
+    printf("numbers from 1to %d",num);
+    for(int i=1;i<=num;i++)
+       {
+       printf("%d\n",i);
+       }
+   }

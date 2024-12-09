@@ -1,17 +1,14 @@
+//write a c program to read the integer as input from the user and print the odd numbers from 1 to 100
 #include<stdio.h>
 int main()
 {
- int num1,num2;
-    printf("enter the two numbers\n");
-    scanf("%d%d",&num1,&num2);
-    
-    if(num1==num2)
-    {
-        printf("numbers are equal");
-    }
-    else
-    {
-        printf("numbers are not equal");
-    }
-    
-}
+    int num;
+    printf("enter an integer :");
+    scanf("%d",&num);
+    printf("odd numbers from 1to 100",num);
+    for(int i=1;i<=num;i++)
+  {
+    if(i%2!=0)  
+       printf("%d\n",i);
+   }
+   }
